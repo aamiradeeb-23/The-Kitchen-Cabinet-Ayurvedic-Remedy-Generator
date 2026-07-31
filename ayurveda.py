@@ -9,7 +9,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # Page config & styling
 # ---------------------------------------------------------------------------
-st.set_page_config(
+st.set_page_config(     page_title="BenaVeda",     page_icon="🌿",     layout="wide" )
     page_title="BenaVeda Ayurvedic Remedy Generator",
     page_icon="🌿",
     layout="wide",
