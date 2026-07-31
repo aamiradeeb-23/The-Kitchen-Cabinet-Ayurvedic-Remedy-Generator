@@ -1,5 +1,5 @@
 """
-Kitchen Cabinet Ayurvedic Remedy Generator
+BenaVeda Ayurvedic Remedy Generator
 A Streamlit app that suggests traditional Ayurvedic home remedies
 using common kitchen spices and pantry ingredients.
 """
@@ -10,7 +10,7 @@ import streamlit as st
 # Page config & styling
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Kitchen Cabinet Ayurvedic Remedy Generator",
+    page_title="BenaVeda Ayurvedic Remedy Generator",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -509,7 +509,7 @@ def render_remedy(remedy: dict, rank: int) -> None:
 # UI
 # ---------------------------------------------------------------------------
 st.markdown(
-    '<p class="main-title">🌿 Kitchen Cabinet Ayurvedic Remedy Generator</p>',
+    '<p class="main-title">🌿 BenaVeda Ayurvedic Remedy Generator</p>',
     unsafe_allow_html=True,
 )
 st.markdown(
@@ -639,5 +639,5 @@ if generate:
 
 st.markdown("---")
 st.caption(
-    "Kitchen Cabinet Ayurvedic Remedy Generator · Traditional home-remedy inspiration · Not a substitute for professional care"
+    "BenaVeda Ayurvedic Remedy Generator · Traditional home-remedy inspiration · Not a substitute for professional care"
 )
